@@ -57,15 +57,15 @@ function App() {
   }
 
   return (
-    <div className="container-fluid">
+    <div>
 
     <HashRouter>
 
     <div className="overlay" onClick={overlayDisapear}></div>
 
         <div>
-            <Navbar className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
+            <Navbar>
+                <div className="container">
                     <Button id="sidebarCollapse" variant="dark" onClick={handleClick}>
                         <FontAwesomeIcon icon={faAlignLeft} />
                      </Button>
@@ -82,6 +82,7 @@ function App() {
                     <Route exact path='/' component={Home} />
                     <Route exact path='/resume' component={Resume} />
                     <Route exact path='/thoughts' component={Thoughts} />
+                    <Route exact path='/thoughts/disruption' component={ThoughtsDisruption} />
                     <Route exact path='/thoughts/feminism' component={ThoughtsFeminism} />
                     <Route exact path='/contact' component={Contact} />
                     <Route exact path='/art' component={Art} />

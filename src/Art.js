@@ -4,6 +4,8 @@ import Monopoly from './monopoly2.svg';
 import Tariq from './tariq.svg';
 import Mama from './mama.svg';
 import Button from 'react-bootstrap/Button';
+import ToggleButton from 'react-bootstrap/ToggleButton';
+import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import $ from 'jquery';
 
 import './Art.css';
@@ -43,35 +45,36 @@ class Art extends React.Component {
     };
 
 
-filterSelection(c) {
-if (c == "all") {
-	$(".filterDiv").each(function() {
-		$(this).removeClass("hidden");
-	});
-} else {	
-	$(".filterDiv").each(function() {
-		if (!$(this).hasClass(c)) {  
-			$(this).addClass("hidden");
-		} else {
-			$(this).removeClass("hidden");
-		}
-	});
-}
 
-}
 
 	render() {
+
+	const filterSelection = (c) => {
+				console.log(c);
+	if (c == "all") {
+		$(".filterDiv").each(function() {
+			$(this).removeClass("hidden");
+		});
+	} else {	
+		$(".filterDiv").each(function() {
+			if (!$(this).hasClass(c)) {  
+				$(this).addClass("hidden");
+			} else {
+				$(this).removeClass("hidden");
+			}
+		});
+	}
+
+	};
 		return (
 			<div className="container content-white">
 				<h3>Art</h3>
 
-				     <div class="pf-wrap">
-                        <div class="pf-filter padd-box">
-                            <Button id="btnAll" variant="dark" className="filter active" onClick={() => this.filterSelection('all')}>all</Button>{' '}
-                            <Button id="btnPeople" variant="dark" className="filter" onClick={() => this.filterSelection('people')}>people</Button>{' '}
-                            <Button id="btnPolitical" variant="dark" className="filter" onClick={() => this.filterSelection('political')}>political</Button>
-                        </div>
-                    </div>
+				  <ToggleButtonGroup type="radio" name="options" defaultValue={"all"} onChange={filterSelection}>
+				    <ToggleButton variant="light" value={"all"}>all</ToggleButton>
+				    <ToggleButton variant="light" value={"people"}>people</ToggleButton>
+				    <ToggleButton variant="light" value={"political"}>political</ToggleButton>
+				  </ToggleButtonGroup>
 
 					<div className="row">
 	      					{this.state.art.map((image) => this.renderImage(image.src, image.category))}
