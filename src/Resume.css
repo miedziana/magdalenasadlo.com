@@ -1,0 +1,16 @@
+.card {
+	padding: 2%;
+}
+
+.avatar-placeholder {
+	padding: 2%;
+}
+
+.card-left {
+	padding: 5%;
+	border-radius: 2%;
+}
+
+.btn {
+	font-size: 0.8em;
+}
