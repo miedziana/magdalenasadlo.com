@@ -22,7 +22,6 @@ import ThoughtsDisruption from './thoughts/ThoughtsDisruption';
 import {
   Switch, 
   Route,
-  NavLink,
   HashRouter
 } from 'react-router-dom';
 

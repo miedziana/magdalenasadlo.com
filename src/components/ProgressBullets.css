@@ -1,0 +1,6 @@
+.row.progress-animated {
+        animation: FadeIn 250ms linear;
+        animation-fill-mode: both;
+
+
+}

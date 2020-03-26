@@ -3,7 +3,6 @@ import Maggie from './maggie-circle.svg';
 import Monopoly from './monopoly2.svg';
 import Tariq from './tariq.svg';
 import Mama from './mama.svg';
-import Button from 'react-bootstrap/Button';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import $ from 'jquery';
@@ -18,7 +17,7 @@ class Art extends React.Component {
 		let allClasses = "col-sm-5 filterDiv " + category;
 	    return (
 	      <div className={allClasses}>
-	        <img src={imgSrc} width="80%"/>
+	        <img src={imgSrc} width="80%" alt="artsy fartsy"/>
 	      </div>
 	    );
   	};
@@ -45,13 +44,11 @@ class Art extends React.Component {
     };
 
 
-
-
 	render() {
 
 	const filterSelection = (c) => {
 				console.log(c);
-	if (c == "all") {
+	if (c === "all") {
 		$(".filterDiv").each(function() {
 			$(this).removeClass("hidden");
 		});

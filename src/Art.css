@@ -37,7 +37,7 @@
 }
 
 /* Add a dark background to the active button */
-.btn-group.active {
+.btn.filter.active {
   background-color: #666;
   color: white;
 }
