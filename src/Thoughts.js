@@ -14,7 +14,7 @@ class Thoughts extends React.Component {
 			<HashRouter>
 
 			<div className="row">
-					<Link to="thoughts/disruption">... On Disruption</Link>
+					<Link to="disruption">... On Disruption</Link>
 				</div>
 				<div className="row">
 					<Link to="/">... On Technology</Link>
@@ -26,7 +26,10 @@ class Thoughts extends React.Component {
 					<Link to="/">... On Free Markets</Link>
 				</div>
 				<div className="row">
-					<Link to="thoughts/feminism">... On Feminism</Link>
+					<Link to="/">... On Freedom of Choice</Link>
+				</div>				
+				<div className="row">
+					<Link to="feminism">... On Feminism</Link>
 				</div>
 
             </HashRouter>

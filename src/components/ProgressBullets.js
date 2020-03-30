@@ -17,7 +17,6 @@ class ProgressBullets extends React.Component {
 		for (let i = 0; i < (this.props.bulletsCount -this.props.bulletsFilled); i++) {
 			this.state.bullets.push(<ProgressBullet filled={false}></ProgressBullet>);
 		}
-		console.log(this.state.bullets);
 	}
 	
 	render () {

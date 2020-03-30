@@ -56,13 +56,10 @@ function App() {
   }
 
   return (
-    <div>
 
     <HashRouter>
 
     <div className="overlay" onClick={overlayDisapear}></div>
-
-        <div>
             <Navbar>
                 <div className="container">
                     <Button id="sidebarCollapse" variant="dark" onClick={handleClick}>
@@ -76,28 +73,27 @@ function App() {
 
 
            <Sidebar></Sidebar>
-         <div className="row">
-                  <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route exact path='/resume' component={Resume} />
-                    <Route exact path='/thoughts' component={Thoughts} />
-                    <Route exact path='/thoughts/disruption' component={ThoughtsDisruption} />
-                    <Route exact path='/thoughts/feminism' component={ThoughtsFeminism} />
-                    <Route exact path='/contact' component={Contact} />
-                    <Route exact path='/art' component={Art} />
-                    <Route exact path='/projects' component={Projects} />
-                    <Route render={function () {
-                      return <p>Not found</p>
-                    }} />
-                  </Switch>
-            </div> 
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/resume' component={Resume} />
+              <Route exact path='/thoughts' component={Thoughts} />
+              <Route exact path='/disruption' component={ThoughtsDisruption} />
+              <Route exact path='/feminism' component={ThoughtsFeminism} />
+              <Route exact path='/contact' component={Contact} />
+              <Route exact path='/art' component={Art} />
+              <Route exact path='/projects' component={Projects} />
+              <Route render={function () {
+                return <p>Not found</p>
+              }} />
+            </Switch>
 
-        </div>
+            <footer>
+              Magdalena Sadlo Resume @ All Rights Reserved 2020
+            </footer>
+
 
       </HashRouter>
 
-
-    </div>
     
 
   );

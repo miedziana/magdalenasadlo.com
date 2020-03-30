@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './ProgressBullet.css'
+import './ProgressChart.css'
 
-class ProgressBullet extends React.Component {
+class ProgressChart extends React.Component {
 	
 
 	render() {
@@ -22,4 +22,4 @@ ProgressBullet.defaultProps = {
 	filled: true
 }
 
-export default ProgressBullet;
+export default ProgressChart;

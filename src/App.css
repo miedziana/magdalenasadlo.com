@@ -1,6 +1,7 @@
-/*
-    DEMO STYLE
-*/
+:root {
+  --main-bg-color: #343a40;
+  --secondary-color: #999;
+}
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
@@ -41,6 +42,12 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
+}
+
+footer {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 0.8em;
 }
 
 a,
