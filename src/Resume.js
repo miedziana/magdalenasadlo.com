@@ -88,7 +88,7 @@ class Resume extends React.Component {
 		    <div className="content-white d-lg-none d-md-block">
 	    		<Row className="center">
 	    			<Col>
-						<img src={Avatar} className="rounded-circle" width="50%" alt="avatar"/>
+						<img src={Avatar} className="rounded-circle" width="50%" height="50%" alt="avatar"/>
 						<h2>Magdalena Sadlo</h2>
 						<div>
 						Software Engineer | Consultant 
