@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from './avatar.png';
-import './Resume.scss';
+import './Resume.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faIdBadge, faAward, faUserGraduate, faBriefcase, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
@@ -31,7 +31,7 @@ class Resume extends React.Component {
 							<Card.Title>Magdalena Sadlo</Card.Title>
 							<Card.Text>
 							Software Engineer | Consultant <a href="https://www.linkedin.com/in/magdalena-sadło-30a16058">
-								 	<FontAwesomeIcon icon={faLinkedin} size="lg" />
+								 	
 								</a>
 							</Card.Text>
 								<Button variant="light"><a href="CV_ Magdalena_Sadlo.pdf"  download="CV_ Magdalena_Sadlo.pdf">Download Resume</a></Button>
@@ -88,7 +88,7 @@ class Resume extends React.Component {
 		    <div className="content-white d-lg-none d-md-block">
 	    		<Row className="center">
 	    			<Col>
-						<img src={Avatar} className="rounded-circle" width="50%"/>
+						<img src={Avatar} className="rounded-circle" width="50%" alt="avatar"/>
 						<h2>Magdalena Sadlo</h2>
 						<div>
 						Software Engineer | Consultant 

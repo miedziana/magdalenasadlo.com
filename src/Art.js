@@ -38,7 +38,7 @@ class Art extends React.Component {
         },
         {
           src: Monopoly,
-          category: 'political'
+          category: 'cartoons'
         },
         ]
     };
@@ -70,7 +70,7 @@ class Art extends React.Component {
 				  <ToggleButtonGroup type="radio" name="options" defaultValue={"all"} onChange={filterSelection}>
 				    <ToggleButton variant="light" value={"all"}>all</ToggleButton>
 				    <ToggleButton variant="light" value={"people"}>people</ToggleButton>
-				    <ToggleButton variant="light" value={"political"}>political</ToggleButton>
+				    <ToggleButton variant="light" value={"cartoons"}>cartoons</ToggleButton>
 				  </ToggleButtonGroup>
 
 					<div className="row">

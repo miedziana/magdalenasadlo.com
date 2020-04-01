@@ -1,0 +1,9 @@
+.form-item {
+	background-color: #f3f3f3;
+	width: 100%;
+	border-style: none;
+}
+
+textarea {
+	height: 200px;
+}

@@ -6,45 +6,43 @@ class Contact extends React.Component {
 	render() {
 		return (
 <div className="container content-white">
-	<div className="col-sm-4"></div>
-    <div className="col-md-auto">
-        <h2 className="title-lg text-upper">contact me</h2>
+        <h2>contact me</h2>
 
-        <div class="padd-box-sm">
+        <div>
             <form action="https://formspree.io/magda.sadlo@protonmail.com" method="POST">
 
-                <div className="form-group">
-                    <label className="form-label" for="author">Your Name</label>
+                <div className="row">
+                    <label className="col-3 form-label" for="author">Your Name</label>
 
-                    <div class="form-item-wrap">
-                        <input id="author" class="form-item" name="name" type="text"/>
+                    <div class="col-9 form-item-wrap">
+                        <input id="author" className="form-item" name="name" type="text"/>
                     </div>
                 </div>
 
-                <div className="form-group">
-                    <label className="form-label" for="email">Your E-mail</label>
+                <div className="row">
+                    <label className="col-3 form-label" for="email">Your E-mail</label>
 
-                    <div class="form-item-wrap">
-                        <input id="email" class="form-item" type="email" name="_replyto" required="required"/>
+                    <div className="col-9 form-item-wrap">
+                        <input id="email" className="form-item" type="email" name="_replyto" required="required"/>
                     </div>
                 </div>
 
-                <div className="form-group">
-                    <label className="form-label" for="comment">Your Message</label>
+                <div className="row">
+                    <label className="col-3 form-label" for="comment">Your Message</label>
 
-                    <div class="form-item-wrap">
-                        <textarea id="comment" class="form-item" name="message"></textarea>
+                    <div className="col-9 form-item-wrap">
+                        <textarea id="comment" className="form-item" name="message"></textarea>
                     </div>
                 </div>
 
-                <div className="form-submit form-item-wrap">
+                <div className="row form-submit form-item-wrap">
+                    <div className="offset-col-3 col-9">
                     <input className="btn btn-dark btn-lg" type="submit" value="Send"/>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
-    <div className="col-sm-4"></div>
-</div>
 			);
 	}
 }

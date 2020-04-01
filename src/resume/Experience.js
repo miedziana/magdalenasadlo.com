@@ -6,17 +6,17 @@ class Experience extends React.Component {
 	render() {
 		return (
 			<div>
-   <h2 class="title-lg text-upper padd-box">work experience</h2>
+   <h2 className="title-lg text-upper padd-box">work experience</h2>
 
-    <div class="education">
+    <div className="education">
 
-        <div class="education-box">
-            <time class="education-date" datetime="2019-01T2019-06">
-                <span>Jan <strong class="text-upper">2019</strong> - June <strong>2019</strong></span>
+        <div className="education-box">
+            <time className="education-date" dateTime="2019-01T2019-06">
+                <span>Jan <strong className="text-upper">2019</strong> - June <strong>2019</strong></span>
             </time>
             <h3>Backend Developer/Contractor</h3>
 
-            <span class="education-company">Bank Vontobel, Zurich, Switzerland</span>
+            <span className="education-company">Bank Vontobel, Zurich, Switzerland</span>
 
             <p>
                 I was part of the team responsible for communication between different applications in the bank currently
@@ -29,13 +29,13 @@ class Experience extends React.Component {
             </p>
         </div>
 
-        <div class="education-box">
-            <time class="education-date" datetime="2018-08T2018-12">
-                <span>August <strong class="text-upper">2018</strong> - Dec <strong>2018</strong></span>
+        <div className="education-box">
+            <time className="education-date" dateTime="2018-08T2018-12">
+                <span>August <strong className="text-upper">2018</strong> - Dec <strong>2018</strong></span>
             </time>
             <h3>Backend Developer/Contractor</h3>
 
-            <span class="education-company">Julius Bar, Zurich, Switzerland</span>
+            <span className="education-company">Julius Bar, Zurich, Switzerland</span>
 
             <p>
                 The project was a continuation of a project I was in still as part of a Zuhlke team. The application is an internal tool to be used as
@@ -46,13 +46,13 @@ class Experience extends React.Component {
             </p>
         </div>
 
-        <div class="education-box">
-            <time class="education-date" datetime="2018-01T2018-07">
-                <span>Feb <strong class="text-upper">2018</strong> - Jul <strong>2018</strong></span>
+        <div className="education-box">
+            <time className="education-date" dateTime="2018-01T2018-07">
+                <span>Feb <strong className="text-upper">2018</strong> - Jul <strong>2018</strong></span>
             </time>
             <h3>Frontend Developer/Contractor</h3>
 
-            <span class="education-company">ZKB, Zurich, Switzerland</span>
+            <span className="education-company">ZKB, Zurich, Switzerland</span>
 
             <p>Development and maintenance of different parts of an online banking platform, as well as an internal platform for client advisors. 
             In this project I was mostly responsible for the frontend development using AngularJS and JSP (which by its nature required working with Java). We 
@@ -63,13 +63,13 @@ class Experience extends React.Component {
         </div>
 
 
-        <div class="education-box">
-            <time class="education-date" datetime="2016-04T2018-02">
-                <span>April <strong class="text-upper">2016</strong> - Feb <strong>2018</strong></span>
+        <div className="education-box">
+            <time className="education-date" dateTime="2016-04T2018-02">
+                <span>April <strong className="text-upper">2016</strong> - Feb <strong>2018</strong></span>
             </time>
             <h3>Full Stack Developer/Consultant</h3>
 
-            <span class="education-company">Zuhlke Engineering AG, Schlieren, Zurich Area, Switzerland</span>
+            <span className="education-company">Zuhlke Engineering AG, Schlieren, Zurich Area, Switzerland</span>
 
             <p>I worked as a software engineering consultant for companies from the financial sector. My responsibilities involved design, full stack web development, testing, code reviews, guidance in application of agile methodologies (Scrum). </p>
             <p><b>PROJECTS</b></p> 
@@ -79,13 +79,13 @@ class Experience extends React.Component {
             <p>Technologies: Java, Spring Boot, Maven, Angular, npm, Selenium, Docker, OpenShift, Oracle DB</p>
         </div>
 
-        <div class="education-box">
-            <time class="education-date" datetime="2018-01T2018-07">
-                <span>Mar <strong class="text-upper">2014</strong> - Feb <strong>2016</strong></span>
+        <div className="education-box">
+            <time className="education-date" dateTime="2018-01T2018-07">
+                <span>Mar <strong className="text-upper">2014</strong> - Feb <strong>2016</strong></span>
             </time>
             <h3>Full Stack Developer</h3>
 
-            <span class="education-company">Swissquote, Gland, Geneva Area, Switzerland</span>
+            <span className="education-company">Swissquote, Gland, Geneva Area, Switzerland</span>
 
             <p>Full stack development and maintenance of an ePrivate Banking - a Java-based robo-advisor platform. I also had an opportunity to be a technical lead for one of the offshore teams which included code reviews, business clarifications and technical guidance.</p>
             <p>
@@ -93,13 +93,13 @@ class Experience extends React.Component {
             </p>
         </div>
 
-        <div class="education-box">
-            <time class="education-date" datetime="2018-01T2018-07">
-                <span>Sep <strong class="text-upper">2012</strong> - Feb <strong>2014</strong></span>
+        <div className="education-box">
+            <time className="education-date" dateTime="2018-01T2018-07">
+                <span>Sep <strong className="text-upper">2012</strong> - Feb <strong>2014</strong></span>
             </time>
             <h3>Java Developer</h3>
 
-            <span class="education-company">Krakow, Poland</span>
+            <span className="education-company">Krakow, Poland</span>
 
             <p>Development, maintenance and preparation of new releases of software for the authentication of radios in the infrastructure (Java based application with Swing GUI), participation in system testing both on the product level as well as the system integration tests.</p>
             <p>

@@ -4,27 +4,19 @@ import './ProgressBullets.css'
 
 class ProgressBullets extends React.Component {
 
-	state = {
-		bullets: []
-	};
-
-
-	constructor(props) {
-		super(props)
-		for (let i = 0; i < this.props.bulletsFilled; i++) {
-				this.state.bullets.push(<ProgressBullet filled={true}></ProgressBullet>);
-			}
-		for (let i = 0; i < (this.props.bulletsCount -this.props.bulletsFilled); i++) {
-			this.state.bullets.push(<ProgressBullet filled={false}></ProgressBullet>);
-		}
-	}
-	
 	render () {
+		let bullets = [];
+			for (let i = 0; i < this.props.bulletsFilled; i++) {
+				bullets.push(<ProgressBullet filled={true}></ProgressBullet>);
+				}
+			for (let i = 0; i < (this.props.bulletsCount -this.props.bulletsFilled); i++) {
+				bullets.push(<ProgressBullet filled={false}></ProgressBullet>);
+			}
 		return (
 		<div>
 			<div className="row">{this.props.title}</div>
 			<div className="row progress-animated">
-				{this.state.bullets} {this.props.level}
+				{bullets} {this.props.level}
 			</div>
 		</div>
 		)

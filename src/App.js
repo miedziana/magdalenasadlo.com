@@ -2,13 +2,14 @@ import React from "react";
 import Sidebar from './Sidebar';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignLeft } from "@fortawesome/free-solid-svg-icons";
 import $ from 'jquery';
 import Maggie from './maggie-circle.svg';
 import FunkyMaggie from './funky-maggie-circle.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Art from './Art';
 import Resume from './Resume';
@@ -18,6 +19,7 @@ import Thoughts from './Thoughts';
 import Projects from './Projects';
 import ThoughtsFeminism from './thoughts/ThoughtsFeminism';
 import ThoughtsDisruption from './thoughts/ThoughtsDisruption';
+import ThoughtsChoice from './thoughts/ThoughtsChoice';
 
 import {
   Switch, 
@@ -46,11 +48,11 @@ function App() {
                    element.classList.toggle("funky-mode");
                 var x = document.getElementById("funky");
                   if (!element.classList.contains("funky-mode")) {
-                    $('#maggie-circle').attr('src',Maggie);
+                    $('.maggie-circle').attr('src',Maggie);
                     x.innerHTML = "Feelin' funky? &#128526;";
                     
                   } else {
-                    $('#maggie-circle').attr('src',FunkyMaggie);
+                    $('.maggie-circle').attr('src',FunkyMaggie);
                     x.innerHTML = "be serious! &#129299;";
                   }
   }
@@ -79,6 +81,7 @@ function App() {
               <Route exact path='/thoughts' component={Thoughts} />
               <Route exact path='/disruption' component={ThoughtsDisruption} />
               <Route exact path='/feminism' component={ThoughtsFeminism} />
+              <Route exact path='/choice' component={ThoughtsChoice} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/art' component={Art} />
               <Route exact path='/projects' component={Projects} />

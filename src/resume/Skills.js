@@ -13,14 +13,16 @@ class Skills extends React.Component {
 					<h2>skills</h2>		
 
 				    <div className="row">
-						<div className="col-sm-6 brd-btm center">
+						<div className="col-sm-5 brd-btm">
 							<h5>professional skills</h5>
+							<div className="center">
 							  <div className="pie" data-value="90">backend</div>
 							  <div className="pie" data-value="80">frontend</div>
-							  <div className="pie" data-value="70">infrastructure</div>						  
+							  <div className="pie" data-value="70">infrastructure</div>		
+							</div>				  
 				        </div>
 
-				        <div className="col-sm-6 brd-btm">
+				        <div className="col-sm-7 brd-btm">
 				    		<h5>technologies</h5>
 				    			<div className="progress-item">
 					    		<span className="progress-title">Java8 + Hibernate + Spring</span>
@@ -54,18 +56,7 @@ class Skills extends React.Component {
 				    </div>
 
 					<div className="row">
-					    	<div className="col-sm-6 brd-btm">
-						    	<h5>languages</h5>
-						    	<div className="lng-bullets">
-					                 <ProgressBullets bulletsFilled="5" bulletsCount="5" title="Polish" level="mother tongue"></ProgressBullets>
-					                 <ProgressBullets bulletsFilled="5" bulletsCount="5" title="English" level="proficient"></ProgressBullets>
-					                 <ProgressBullets bulletsFilled="5" bulletsCount="5" title="German" level="proficient"></ProgressBullets>
-					                 <ProgressBullets bulletsFilled="3" bulletsCount="5" title="French" level="intermediate"></ProgressBullets>
-					                 <ProgressBullets bulletsFilled="1" bulletsCount="5" title="Russian" level="beginner"></ProgressBullets>
-						        </div>
-					        </div>
-
-				        <div className="col-sm-6 brd-btm">
+						 <div className="col-sm-5 brd-btm">
 							<h5>personal characteristics</h5>
 							<div>
 								<ul className="center">
@@ -76,7 +67,16 @@ class Skills extends React.Component {
 								</ul>
 							</div>
 						</div>
-
+				    	<div className="col-sm-7 brd-btm">
+					    	<h5>languages</h5>
+					    	<div className="lng-bullets">
+				                 <ProgressBullets bulletsFilled="5" bulletsCount="5" title="Polish" level="mother tongue"></ProgressBullets>
+				                 <ProgressBullets bulletsFilled="5" bulletsCount="5" title="English" level="proficient"></ProgressBullets>
+				                 <ProgressBullets bulletsFilled="5" bulletsCount="5" title="German" level="proficient"></ProgressBullets>
+				                 <ProgressBullets bulletsFilled="3" bulletsCount="5" title="French" level="intermediate"></ProgressBullets>
+				                 <ProgressBullets bulletsFilled="1" bulletsCount="5" title="Russian" level="beginner"></ProgressBullets>
+					        </div>
+				        </div>
 					</div>
 
 					<div className="row bottom">
@@ -87,7 +87,7 @@ class Skills extends React.Component {
 										<div><span><FontAwesomeIcon icon={faLock} size="lg" /></span></div><div>privacy</div>
 									</div>	
 									<div className="col-sm-2">
-										<div><span><FontAwesomeIcon icon={faPencilAlt} size="lg" /></span></div><div>drawing</div>
+										<div><span><FontAwesomeIcon icon={faPencilAlt} size="lg" /></span></div><div>design</div>
 									</div>
 									<div className="col-sm-2">
 									<div><span><FontAwesomeIcon icon={faHiking} size="lg" /></span></div><div> trekking</div>

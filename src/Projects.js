@@ -17,7 +17,7 @@ class Projects extends React.Component {
 							on <a href="https://github.com/miedziana/magdalenasadlo.com"><b><u>Github</u></b></a></p>
 						</div>
 						<div className="row">
-							<h4><a href="maggielard.com">Maggie Lard blog</a></h4>
+							<h4><a href="https://maggielard.com">Maggie Lard blog</a></h4>
 							<p>Travel diaries from my travels with my boyfriend. It is a collection of stories, sketches and soundbites 
 							from our trip. It was meant as a way to preserve the memories from the trip while still fresh and share the 
 							trip with our families and friends. The blog is built using <a href="tryghost.com"><b><u>Ghost</u></b></a>.</p>

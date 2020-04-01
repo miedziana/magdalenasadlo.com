@@ -26,7 +26,7 @@ class Thoughts extends React.Component {
 					<Link to="/">... On Free Markets</Link>
 				</div>
 				<div className="row">
-					<Link to="/">... On Freedom of Choice</Link>
+					<Link to="/choice">... On Freedom of Choice</Link>
 				</div>				
 				<div className="row">
 					<Link to="feminism">... On Feminism</Link>
