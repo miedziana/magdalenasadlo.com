@@ -2,7 +2,6 @@ import React from "react";
 import Sidebar from './Sidebar';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignLeft } from "@fortawesome/free-solid-svg-icons";

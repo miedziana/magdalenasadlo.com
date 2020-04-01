@@ -7,7 +7,8 @@
 
 .content-white {
   background-color: white; 
-  padding: 5%
+  padding: 5%;
+  margin-top: 10px;
 }
 
 .center {
@@ -31,44 +32,13 @@
     background-color: blue;
 }
 
-.funky-mode .container {
-        /*background-image: url("funky.jpg");*/
-    /*background-color: #36ffcb;*/
-}
-/*
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-
-}
-*/
-p {
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-}
-
-footer {
-    text-align: center;
-    color: var(--secondary-color);
-    font-size: 0.8em;
-}
-
-a,
-a:hover,
-a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-}
 
 .navbar {
     padding: 15px 10px;
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -264,7 +234,7 @@ a.article:hover {
 }
 
 img {
-      display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }

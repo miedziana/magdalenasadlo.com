@@ -12,31 +12,28 @@ class Contact extends React.Component {
             <form action="https://formspree.io/magda.sadlo@protonmail.com" method="POST">
 
                 <div className="row">
-                    <label className="col-3 form-label" for="author">Your Name</label>
-
-                    <div class="col-9 form-item-wrap">
+                    <div className="offset-sm-1 col-sm-6">
+                        <label className="form-label" for="author">Your Name</label>
                         <input id="author" className="form-item" name="name" type="text"/>
                     </div>
                 </div>
 
                 <div className="row">
-                    <label className="col-3 form-label" for="email">Your E-mail</label>
-
-                    <div className="col-9 form-item-wrap">
-                        <input id="email" className="form-item" type="email" name="_replyto" required="required"/>
-                    </div>
+                    <div className="offset-sm-1 col-sm-6">
+                        <label className="form-label" for="email">Your E-mail</label>
+                         <input id="email" className="form-item" type="email" name="_replyto" required="required"/>
+                     </div>
                 </div>
 
                 <div className="row">
-                    <label className="col-3 form-label" for="comment">Your Message</label>
-
-                    <div className="col-9 form-item-wrap">
+                    <div className="offset-sm-1 col-sm-6">
+                        <label className="form-label" for="comment">Your Message</label>
                         <textarea id="comment" className="form-item" name="message"></textarea>
                     </div>
                 </div>
 
-                <div className="row form-submit form-item-wrap">
-                    <div className="offset-col-3 col-9">
+                <div className="row form-submit">
+                    <div className="offset-sm-1 col-sm-6">
                     <input className="btn btn-dark btn-lg" type="submit" value="Send"/>
                     </div>
                 </div>

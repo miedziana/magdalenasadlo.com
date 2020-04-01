@@ -3,6 +3,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './Certificates.css';
 
+
 class Certificates extends React.Component {
 	render() {
 		return (

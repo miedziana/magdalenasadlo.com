@@ -4,6 +4,15 @@
 	border-style: none;
 }
 
+.form-submit {
+	padding-top: 5px;
+}
+
 textarea {
 	height: 200px;
+}
+
+.row {
+	margin-top: 0;
+	margin-bottom: 0;
 }

@@ -58,3 +58,7 @@
 .nav-pills .nav-link.active {
   background-color: #23272b;
 }
+
+.active {
+  border-style: none;
+}

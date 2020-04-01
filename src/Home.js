@@ -15,8 +15,8 @@ class Home extends React.Component {
                 <div className="row d-sm-none d-xs-block content-white">
                         <HashRouter>
                             <div>
-                                <h2>I'm Magda!</h2>
-                                <h3>Nice to meet you!</h3>
+                                <h3>I'm Magda!</h3>
+                                <h4>Nice to meet you!</h4>
                                 <div className="line"></div>
                                 <p>This website is home to my <Link to="projects"><u><b>projects</b></u></Link>
                                 , <Link to="thoughts"><u><b>thoughts</b></u></Link>
