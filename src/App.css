@@ -22,7 +22,21 @@
     background-image: url("funky.jpg");
 }
 
+.funky-mode .content-white {
+    background-color: black;
+}
+
+.funky-mode .navbar {
+    background-color: black;
+}
+
 .funky-mode .btn  {
+    background-color: purple;
+    color: white;
+    border-color: purple;
+}
+
+.funky-mode .nav-pills .nav-link.active {
     background-color: purple;
     color: white;
     border-color: purple;
@@ -32,6 +46,9 @@
     background-color: blue;
 }
 
+.nav {
+    margin-top: 10px;
+}
 
 .navbar {
     padding: 15px 10px;

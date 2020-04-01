@@ -18,13 +18,13 @@ class Thoughts extends React.Component {
 					<Link to="disruption">... On Disruption</Link>
 				</div>
 				<div className="offset-2 row">
-					<Link to="/">... On Technology</Link>
+					<Link to="">... On Technology</Link>
 				</div>
 				<div className="offset-2 row">
-					<Link to="/">... On Public Services</Link>
+					<Link to="">... On Public Services</Link>
 				</div>
 				<div className="offset-2 row">
-					<Link to="/">... On Free Markets</Link>
+					<Link to="">... On Free Markets</Link>
 				</div>
 				<div className="offset-2 row">
 					<Link to="/choice">... On Freedom of Choice</Link>

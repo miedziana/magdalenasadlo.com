@@ -14,7 +14,7 @@ class Art extends React.Component {
 
 
 	renderImage(imgSrc, category) {
-		let allClasses = "col-5 filterDiv " + category;
+		let allClasses = "col-10 col-md-5 filterDiv " + category;
 	    return (
 	      <div className={allClasses}>
 	        <img src={imgSrc} width="80%" alt="artsy fartsy"/>

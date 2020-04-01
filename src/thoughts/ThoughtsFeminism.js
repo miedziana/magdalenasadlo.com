@@ -15,7 +15,7 @@ class ThoughtsFeminism extends React.Component {
 	    	<div className="container content-white">
 	    	<HashRouter>
 	    	<Link to="../thoughts"><Button variant="link"><FontAwesomeIcon icon={faArrowLeft} /> Thoughts</Button></Link>
-	    	<div className="row">
+	    	<div className="offset-1 row">
 	    	<h4>Feminism</h4>
 	    	<p>
 It is a mistake to think that feminism, or push for more participation of women in different walks of life is just about having a woman there. It is certainly not about women behaving like men. It is about understanding and representation of female interests.

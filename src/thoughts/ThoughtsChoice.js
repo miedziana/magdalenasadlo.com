@@ -16,7 +16,8 @@ class ThoughtsChoice extends React.Component {
 	    	<div className="container content-white">
 	    	<HashRouter>
 	    	<Link to="../thoughts"><Button variant="link"><FontAwesomeIcon icon={faArrowLeft} /> Thoughts</Button></Link>
-	    	<div className="row">
+	    	<div className="offset-1 row">
+	    	<br/>
 	    	<h4>Freedom of Choice</h4>
 	    	<p>
 			We like to think of ourselves as independent beings that make decisions freely. We are living in an economic system that is built on 

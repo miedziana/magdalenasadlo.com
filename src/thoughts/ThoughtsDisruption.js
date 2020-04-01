@@ -15,7 +15,7 @@ class ThoughtsDisruption extends React.Component {
 	    	<div className="container content-white">
 	    	<HashRouter>
 	    	<Link to="../thoughts"><Button variant="link"><FontAwesomeIcon icon={faArrowLeft} /> Thoughts</Button></Link>
-	    	<div className="row">
+	    	<div className="offset-1 row">
 	    	<h4>Disruption</h4>
 	    	<p>
 			The term 'disruption' somehow gained a very positive connotation in the tech slang - without question companies like Facebook,
