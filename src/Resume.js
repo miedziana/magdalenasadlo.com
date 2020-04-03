@@ -26,8 +26,11 @@ class Resume extends React.Component {
 		    	<div className="row">
 		    		<div className="col-sm-3">
 						<Card className="shaded">
-							<Card.Img variant="top" src={Avatar} className="rounded-circle"/>
 							<Card.Body>
+							<div>
+							<img src={Avatar} className="rounded-circle" width="90%"/>
+							<br/>
+							</div>
 							<Card.Title>Magdalena Sadlo</Card.Title>
 							<Card.Text>
 							Software Engineer | Consultant <a href="https://www.linkedin.com/in/magdalena-sadło-30a16058">
@@ -88,7 +91,9 @@ class Resume extends React.Component {
 		    <div className="content-white d-lg-none d-md-block">
 	    		<Row className="center">
 	    			<Col>
-						<img src={Avatar} className="rounded-circle" width="50%" height="50%" alt="avatar"/>
+	    				<div>
+							<img src={Avatar} className="rounded-circle" width="50%" height="50%" alt="avatar"/>
+						</div>
 						<h2>Magdalena Sadlo</h2>
 						<div>
 						Software Engineer | Consultant 

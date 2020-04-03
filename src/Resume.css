@@ -63,3 +63,7 @@
 .active {
   border-style: none;
 }
+
+a:focus  {
+  outline: 0;
+}
