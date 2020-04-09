@@ -19,6 +19,9 @@ import Projects from './Projects';
 import ThoughtsFeminism from './thoughts/ThoughtsFeminism';
 import ThoughtsDisruption from './thoughts/ThoughtsDisruption';
 import ThoughtsChoice from './thoughts/ThoughtsChoice';
+import ThoughtsServices from './thoughts/ThoughtsServices';
+import ThoughtsCapitalism from './thoughts/ThoughtsCapitalism';
+import ThoughtsPropaganda from './thoughts/ThoughtsPropaganda';
 
 import {
   Switch, 
@@ -81,6 +84,10 @@ function App() {
               <Route exact path='/disruption' component={ThoughtsDisruption} />
               <Route exact path='/feminism' component={ThoughtsFeminism} />
               <Route exact path='/choice' component={ThoughtsChoice} />
+              <Route exact path='/choice' component={ThoughtsChoice} />
+              <Route exact path='/propaganda' component={ThoughtsPropaganda} />
+              <Route exact path='/capitalism' component={ThoughtsCapitalism} />
+              <Route exact path='/services' component={ThoughtsServices} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/art' component={Art} />
               <Route exact path='/projects' component={Projects} />
