@@ -33,11 +33,11 @@ class Resume extends React.Component {
 							</div>
 							<Card.Title>Magdalena Sawyer</Card.Title>
 							<Card.Text>
-							Software Engineer | Consultant <a href="https://www.linkedin.com/in/magdalena-sadło-30a16058">
+							Software Engineer | Consultant <a href="linkedin.com/in/magdalena-sawyer-30a16058">
 								 	
 								</a>
 							</Card.Text>
-								<Button variant="light"><a href="CV_Magdalena_Sadlo.pdf"  download="CV_Magdalena_Sadlo.pdf">Download Resume</a></Button>
+								<Button variant="light"><a href="CV_Magdalena_Sawyer.pdf"  download="CV_Magdalena_Sawyer.pdf">Download Resume</a></Button>
 							</Card.Body>
 						</Card>
 					</div>
@@ -99,12 +99,12 @@ class Resume extends React.Component {
 						Software Engineer | Consultant 
 						</div>
 						<div>
-						<a href="https://www.linkedin.com/in/magdalena-sadło-30a16058">
+						<a href="linkedin.com/in/magdalena-sawyer-30a16058">
 							 	<FontAwesomeIcon icon={faLinkedin} size="lg" />
 						</a>
 						</div>
 						<Button variant="light">
-							<a href="CV_ Magdalena_Sadlo.pdf"  download="CV_ Magdalena_Sadlo.pdf">Download Resume</a>
+							<a href="CV_Magdalena_Sawyer.pdf"  download="CV_ Magdalena_Sawyer.pdf">Download Resume</a>
 						</Button>
 					</Col>
 				</Row>
