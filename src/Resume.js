@@ -31,13 +31,13 @@ class Resume extends React.Component {
 							<img src={Avatar} className="rounded-circle" width="90%"/>
 							<br/>
 							</div>
-							<Card.Title>Magdalena Sadlo</Card.Title>
+							<Card.Title>Magdalena Sawyer</Card.Title>
 							<Card.Text>
 							Software Engineer | Consultant <a href="https://www.linkedin.com/in/magdalena-sadło-30a16058">
 								 	
 								</a>
 							</Card.Text>
-								<Button variant="light"><a href="CV_ Magdalena_Sadlo.pdf"  download="CV_ Magdalena_Sadlo.pdf">Download Resume</a></Button>
+								<Button variant="light"><a href="CV_Magdalena_Sadlo.pdf"  download="CV_Magdalena_Sadlo.pdf">Download Resume</a></Button>
 							</Card.Body>
 						</Card>
 					</div>
@@ -94,7 +94,7 @@ class Resume extends React.Component {
 	    				<div>
 							<img src={Avatar} className="rounded-circle" width="50%" height="50%" alt="avatar"/>
 						</div>
-						<h2>Magdalena Sadlo</h2>
+						<h2>Magdalena Sawyer</h2>
 						<div>
 						Software Engineer | Consultant 
 						</div>
