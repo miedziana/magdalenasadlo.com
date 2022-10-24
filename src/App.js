@@ -97,7 +97,7 @@ function App() {
             </Switch>
 
             <footer>
-              Magdalena Sadlo Resume @ All Rights Reserved 2020
+              Magdalena Sawyer Resume @ All Rights Reserved 2022
             </footer>
 
 
